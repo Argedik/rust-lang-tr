@@ -1,13 +1,10 @@
-## Appendix A: Keywords
+## Bölüm A: Anahtar Kelimeler
 
-The following list contains keywords that are reserved for current or future
-use by the Rust language. As such, they cannot be used as identifiers (except
-as raw identifiers as we’ll discuss in the “[Raw
-Identifiers][raw-identifiers]<!-- ignore -->” section). Identifiers are names
-of functions, variables, parameters, struct fields, modules, crates, constants,
-macros, static values, attributes, types, traits, or lifetimes.
+Aşağıdaki liste, Rust dilinde şu anda veya gelecekte ayrılmış olan anahtar kelimeleri içermektedir. Bu nedenle, bu kelimeler tanımlayıcı (identifier) olarak kullanılamaz (yalnızca "[Ham Tanım][Ham-Tanim]" bölümünde tartışacağımız şekilde ham tanımlayıcılar olarak kullanılabilir). Tanımlayıcılar; fonksiyonların, değişkenlerin, parametrelerin, struct alanlarının, modüllerin, crate'lerin, sabitlerin, 
+makroların, statik değerlerin, özniteliklerin, türlerin, trait'lerin veya yaşam sürelerinin isimleridir.
 
-[raw-identifiers]: #raw-identifiers
+[Ham-Tanim]: #ham-tanim
+
 
 ### Keywords Currently in Use
 
@@ -59,7 +56,7 @@ described.
 
 [union]: ../reference/items/unions.html
 
-### Keywords Reserved for Future Use
+### Keywordss
 
 The following keywords do not yet have any functionality but are reserved by
 Rust for potential future use.
@@ -81,8 +78,8 @@ Rust for potential future use.
 - `virtual`
 - `yield`
 
-### Raw Identifiers
 
+### Ham Tanım <span id="ham-tanim"></span> 
 _Raw identifiers_ are the syntax that lets you use keywords where they wouldn’t
 normally be allowed. You use a raw identifier by prefixing a keyword with `r#`.
 
